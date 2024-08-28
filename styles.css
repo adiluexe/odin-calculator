@@ -49,3 +49,62 @@ h6 {
   overflow-wrap: break-word;
   hyphens: auto;
 }
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: bold;
+  min-height: 100vh;
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.display {
+  color: var(--background);
+  background-color: var(--text);
+  padding: 1rem;
+  width: 100%;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100px;
+  height: 50px;
+  /* border: 0.1rem solid var(--primary); */
+}
+
+.keys {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.span-two {
+  width: 200px;
+}
