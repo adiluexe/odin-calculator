@@ -66,7 +66,7 @@ class Calculator {
     let integerDisplay;
 
     if (isNaN(integerDigits)) {
-      integerDisplay = "0";
+      integerDisplay = "";
     } else {
       integerDisplay = integerDigits.toLocaleString("en-US", {
         maximumFractionDigits: 0,
